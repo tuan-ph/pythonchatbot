@@ -1,5 +1,6 @@
 {"intents": [
-    {"tag": "greeting",
+    {
+      "tag": "greeting",
       "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
       "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
       "context_set": ""
@@ -40,9 +41,26 @@
       "responses": ["HS", "HotSchedules"]
     },
     {
-      "tag": "How many member in this project?",
-      "patterns": ["Over 100 members in 2018 :heart:"],
+      "tag": "hs_questions",
+      "patterns": ["How many member in this project?"],
+      "responses": ["Over 100 members in 2018 :heart:"],
       "context_set": ["HS", "HotSchedules"]
-    }
+    },
+    {
+      "tag": "Foods",
+      "patterns": ["What is the best restaurant in HCM City, Sai Gon?", "Where is best food, famous food of VN in HCM", "Fish, Meat, Fork"],
+      "responses": ["Hello, Yeah... You can search on Foody :smile:", "wow...Grab Food will help U", "Wow.... Search on google and check review to help U"],
+      "context_set": ""
+    },
+    {
+      "tag": "Who",
+      "patterns": ["Miss world 2019", "hot girl", "VN hot girl", "A+ Head", "BU A Plus", "Who is A Plus head", "hot boy VN" ], 
+      "responses": ["Miss word 2019", "VN hot girl Midu", "A+ Head is MaiLe :boom:", "He is Tai :heart:"]
+    },
+    {
+      "tag": "Finacial",
+      "patterns": ["hi", "hello", "hey", "How to become billionaire", "become rich", "many money", "Who is the best rich in KMS", "have money", "KMS rich"],
+      "response": ["hello", "yeah,... It is simple :smile: ", "Vietlott will help U", "should buy vietlott!! haha", "The best rich in KMS is Dai Tran haha confirm him to know :smile:"]
+    }    
   ]
 }
