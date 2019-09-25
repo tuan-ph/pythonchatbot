@@ -37,8 +37,8 @@
     },
     {
       "tag": "HotSchedules",
-      "patterns": ["Which project is biggest in A+?"],
-      "responses": ["HS", "HotSchedules"]
+      "patterns": ["HotSchedules", "Which project is biggest in A+?"],
+      "responses": ["The biggest project of A+ HotSchedules", "HotSchedules"]
     },
     {
       "tag": "hs_questions",
@@ -61,6 +61,93 @@
       "tag": "Finacial",
       "patterns": ["How to become billionaire", "become rich", "many money", "Who is the best rich in KMS", "have money", "KMS rich"],
       "responses": ["hello", "yeah,... It is simple :smile: ", "Vietlott will help U", "should buy vietlott!! haha", "The best rich in KMS is Dai Tran haha confirm him to know :smile:"]
-    }    
+    },
+    {
+      "tag": "care-logistics",
+      "patterns": ["Care Logistics", "care logistics", "Do you know the Care Logistics project?", "What is about Care Logistics?"],
+      "responses": ["I know this project, the team location is in the 4th floor - TV office and  a healthcare project. Here is the website: <https://www.carelogistics.com/|https://www.carelogistics.com/>"]
+    },
+    {
+      "tag": "care-logistics-team",
+      "patterns": ["Care Logistics team size", "CareLogistics team size", "How about Care Logistics team size?", "How many member in this project?", "How many member in the Care Logistics"],
+      "responses": ["6 members", "The team size is 6.", "We have 6 members in this project"],
+      "context_set": ["Care Logistics", "CareLogistics", "care logistics"]
+    },
+    {
+      "tag": "care-logistics-domain",
+      "patterns": ["domain", "How about the Care Logistics business?", "What is the domain of this project?", "What is the business of Care Logistics?"],
+      "responses": ["Healthcare", "It is a healthcare project"],
+      "context_set": ["Care Logistics", "CareLogistics", "care logistics"]
+    },
+    {
+      "tag": "care-logistics-start-date",
+      "patterns": ["Care Logistics start date", "When does the Care Logistics start?", "What time is the Care Logistics project start?", "What is the business of Care Logistics?"],
+      "responses": ["Oct 22, 2018"],
+      "context_set": ["Care Logistics", "CareLogistics", "care logistics"]
+    },
+    {
+      "tag": "care-logistics-website",
+      "patterns": ["Care Logistics website", "When is the Care Logistics's website?"],
+      "responses": ["Here is the website: <https://www.carelogistics.com/|https://www.carelogistics.com/>"],
+      "context_set": ["Care Logistics", "CareLogistics", "care logistics"]
+    },
+    {
+      "tag": "dealer",
+      "patterns": ["Dealer", "dealer", "Do you know the Dealer project?", "What is about Dealer?"],
+      "responses": ["I know this project, the team location is in the 5th floor - TV office and  an automobile project. Here is the website: <https://dealer.com/|https://dealer.com/>"]
+    },
+    {
+      "tag": "dealer-team",
+      "patterns": ["Dealer team size", "How about Dealer team size?", "How many member in this project?", "How many member in the Dealer"],
+      "responses": ["5 members", "The team size is 5.", "We have 5 members in this project"],
+      "context_set": ["Dealer", "dealer"]
+    },
+    {
+      "tag": "dealer-domain",
+      "patterns": ["domain", "How about the Dealer business?", "What is the domain of this project?", "What is the business of Dealer?"],
+      "responses": ["Automobile", "It is an automobile project"],
+      "context_set": ["Dealer", "dealer"]
+    },
+    {
+      "tag": "dealer-start-date",
+      "patterns": ["Dealer start date", "When does the Dealer start?", "What time is the Dealer project start?", "What is the business of Dealer?"],
+      "responses": ["Mar 26, 2018"],
+      "context_set": ["Dealer", "dealer"]
+    },
+    {
+      "tag": "dealer-website",
+      "patterns": ["Dealer website", "When is the Dealer's website?"],
+      "responses": ["Here is the website: <https://dealer.com/|https://dealer.com/>"],
+      "context_set": ["Dealer", "dealer"]
+    },
+    {
+      "tag": "monetate",
+      "patterns": ["Monetate", "monetate", "Do you know the Monetate project?", "What is about Monetate?"],
+      "responses": ["I know this project, the team location is in the 4th floor - TV office and  the Marketing Platform, Enterprise Software, Internet, Test and Measurement project.  Here is the website: <https://monetate.com/|https://monetate.com/>"]
+    },
+    {
+      "tag": "monetate-team",
+      "patterns": ["Monetate team size", "How about Monetate team size?", "How many member in this project?", "How many member in the Monetate?"],
+      "responses": ["3 members", "The team size is 3.", "We have 3 members in this project"],
+      "context_set": ["Monetate", "monetate"]
+    },
+    {
+      "tag": "monetate-domain",
+      "patterns": ["domain", "How about the Monetate business?", "What is the domain of this project?", "What is the business of Monetate?"],
+      "responses": ["Marketing Platform, Enterprise Software, Internet, Test and Measurement", "It is an Marketing Platform, Enterprise Software, Internet, Test and Measurement project"],
+      "context_set": ["Monetate", "monetate"]
+    },
+    {
+      "tag": "monetate-start-date",
+      "patterns": ["Monetate start date", "When does the Monetate start?", "What time is the Monetate project start?", "What is the business of Monetate?"],
+      "responses": ["Oct 22, 2018"],
+      "context_set": ["Monetate", "monetate"]
+    },
+    {
+      "tag": "monetate-website",
+      "patterns": ["Monetate website", "When is the Monetate's website?"],
+      "responses": ["Here is the website: <https://monetate.com/|https://monetate.com/>"],
+      "context_set": ["Monetate", "monetate"]
+    }
   ]
 }
