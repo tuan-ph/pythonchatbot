@@ -42,9 +42,20 @@
     },
     {
       "tag": "hs_questions",
-      "patterns": ["How many member in this project?"],
-      "responses": ["Over 100 members in 2018 :heart:"],
+      "patterns": ["How many member in this project?", "What is industry of Hotschedules Project", "What is programming languanges in HS?", "Why Hotschedules is dismissed/closed "],
+      "responses": ["Over 100 members in 2018 :heart:","Hotschedules is Restaurant industry","HS is used NodeJS","Hotschedules is acquired by Fourth :disappointed:"],
       "context_set": ["HS", "HotSchedules"]
+    },
+	  {
+      "tag": "Kibo",
+      "patterns": ["Which project is long-live in A+?"],
+      "responses": ["Marketlive", "Kibo"]
+    },
+    {
+      "tag": "Kibo_questions",
+      "patterns": ["How many member in this project?", "What is business/domain of Kibo Project", "What is programming languanges in Kibo?","Does Kibo has test automation"],
+      "responses": ["Over 50 members in 2014 :heart:","Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
+      "context_set": ["Marketlive", "Kibo"]
     },
     {
       "tag": "Foods",
