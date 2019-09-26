@@ -37,6 +37,17 @@
     },
     {
       "tag": "HotSchedules",
+
+      "patterns": ["Which project is biggest in A+?"],
+      "responses": ["HS", "HotSchedules"],
+      "context_set": ["HotSchedules"]
+    },
+    {
+      "tag": "HotSchedules_members",
+      "patterns": ["How many member in this project?"],
+      "responses": ["Over 100 members in 2018 :heart:"],
+      "context_filter": ["HotSchedules"]
+
       "patterns": ["HotSchedules", "Which project is biggest in A+?"],
       "responses": ["The biggest project of A+ HotSchedules", "HotSchedules"]
     },
@@ -45,6 +56,7 @@
       "patterns": ["How many member in this project?", "What is industry of Hotschedules Project", "What is programming languanges in HS?", "Why Hotschedules is dismissed/closed "],
       "responses": ["Over 100 members in 2018 :heart:","Hotschedules is Restaurant industry","HS is used NodeJS","Hotschedules is acquired by Fourth :disappointed:"],
       "context_set": ["HS", "HotSchedules"]
+
     },
 	  {
       "tag": "Kibo",
@@ -57,6 +69,47 @@
       "responses": ["Over 50 members in 2014 :heart:","Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
       "context_set": ["Marketlive", "Kibo"]
     },
+    {
+    "tag": "HotSchedules_question",
+    "patterns": ["Why HS is closed "],
+    "responses": ["It is acquired by Fourth :joy:"],
+    "context_filter": ["HotSchedules"]
+   },
+  {
+    "tag": "Kibo",
+    "patterns": ["Which project is long-live in A+?"],
+    "responses": ["Marketlive", "Kibo is long live"],
+    "context_set": ["Marketlive","Kibo" ]
+  },
+  {
+    "tag": "Kibo_size",
+    "patterns": ["How many member in this project?"],
+    "responses": ["Over 50 members in 2014 :heart:"],
+    "context_filter": ["Marketlive", "Kibo"]
+  },
+  {
+  "tag": "Kibo_domain",
+  "patterns": ["What is business/domain of Kibo Project", "What is programming languanges in Kibo?","Does Kibo has test automation"],
+  "responses": ["Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
+  "context_filter": ["Marketlive", "Kibo"]
+  },
+  {
+  "tag": "Kibo_technical",
+  "patterns": ["What is programming languanges in Kibo?","Does Kibo has test automation"],
+  "responses": ["programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
+  "context_filter": ["Marketlive", "Kibo"]
+  },
+  {
+    "tag": "Projects",
+    "patterns": ["How many project in A+ currently?", "Projects in A Plus", "Accounts in A+"],
+    "responses": ["Over 10 projects, you can refer on Intranet of A+ Accounts :heart:"]
+  },
+
+  {
+    "tag": "Boy",
+    "patterns": ["Who is Chanh?"],
+    "responses": ["hot boy at F4 TV :smile:"]
+  },
     {
       "tag": "Foods",
       "patterns": ["What is the best restaurant in HCM City, Sai Gon?", "Where is best food, famous food of VN in HCM", "Fish, Meat, Fork"],
