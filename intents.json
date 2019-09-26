@@ -1,4 +1,4 @@
-﻿{"intents": [
+{"intents": [
     {
       "tag": "greeting",
       "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Supp", "What's up", "Wassup", "Yo", "Hey"],
@@ -271,7 +271,7 @@
     {
       "tag": "autotrader-date",
       "patterns": ["Autotrader start date", "When did Autotrader start?", "When did Autotrader begin", "start date"],
-      "responses": ["Jan 1, 2014. One of the elders :face_with_monocle:."],
+      "responses": ["Jxan 1, 2014. One of the elders :face_with_monocle:."],
       "context_set": ["Autotrader", "AutoTrader", "autotrader"]
     },
     {
