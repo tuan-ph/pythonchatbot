@@ -47,8 +47,10 @@
       "patterns": ["How many member in this project?"],
       "responses": ["Over 100 members in 2018 :heart:"],
       "context_filter": ["HotSchedules"]
-
-      "patterns": ["HotSchedules", "Which project is biggest in A+?"],
+    },
+    {
+      "tag": "biggest-project",
+      "patterns": ["Which project is biggest in A+?"],
       "responses": ["The biggest project of A+ HotSchedules", "HotSchedules"]
     },
     {
