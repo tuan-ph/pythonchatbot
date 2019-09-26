@@ -56,7 +56,7 @@
   {
     "tag": "Kibo",
     "patterns": ["Which project is long-live in A+?"],
-    "responses": ["Marketlive", "Kibo"],
+    "responses": ["Marketlive", "Kibo is long live"],
     "context_set": ["Marketlive","Kibo" ]
   },
   {
