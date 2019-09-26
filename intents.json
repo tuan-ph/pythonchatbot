@@ -37,16 +37,9 @@
     },
     {
       "tag": "HotSchedules",
-
       "patterns": ["Which project is biggest in A+?"],
       "responses": ["HS", "HotSchedules"],
       "context_set": ["HotSchedules"]
-    },
-    {
-      "tag": "HotSchedules_members",
-      "patterns": ["How many member in this project?"],
-      "responses": ["Over 100 members in 2018 :heart:"],
-      "context_filter": ["HotSchedules"]
     },
     {
       "tag": "biggest-project",
@@ -58,8 +51,13 @@
       "patterns": ["How many member in this project?", "What is industry of Hotschedules Project", "What is programming languanges in HS?", "Why Hotschedules is dismissed/closed "],
       "responses": ["Over 100 members in 2018 :heart:","Hotschedules is Restaurant industry","HS is used NodeJS","Hotschedules is acquired by Fourth :disappointed:"],
       "context_set": ["HS", "HotSchedules"]
-
     },
+    {
+    "tag": "HotSchedules_closed",
+    "patterns": ["Why HS is closed "],
+    "responses": ["It is acquired by Fourth :joy:"],
+    "context_filter": ["HotSchedules"]
+   },
 	  {
       "tag": "Kibo",
       "patterns": ["Which project is long-live in A+?"],
@@ -71,12 +69,6 @@
       "responses": ["Over 50 members in 2014 :heart:","Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
       "context_set": ["Marketlive", "Kibo"]
     },
-    {
-    "tag": "HotSchedules_question",
-    "patterns": ["Why HS is closed "],
-    "responses": ["It is acquired by Fourth :joy:"],
-    "context_filter": ["HotSchedules"]
-   },
   {
     "tag": "Kibo",
     "patterns": ["Which project is long-live in A+?"],
