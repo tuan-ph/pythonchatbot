@@ -1,22 +1,22 @@
-{"intents": [
+﻿{"intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
-      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Supp", "What's up", "Wassup", "Yo", "Hey"],
+      "responses": ["Yo", "F**Bot at your service.", "Hi there :neutral_face:", "Sup mate", "You again?? I'm taking a shower, gettout!!", "On vacation. Try again after the *beep* sound."],
       "context_set": ""
     },
     {
       "tag": "greeting_questions",
       "patterns": ["How are you?", "How is it going?", "How's it going?", "How do you do?"],
-      "responses": ["I'm always good. Thanks you! :smile:", "I'm ok. How are you? :smile:", "Great! Thank you! :smile:"]
+      "responses": ["01000101101010101001101101.\nGood luck translating that.", "Never better in this entire deployment.", "Great! Getting an update soon! :smile:", "Ya asking a bot's health? You lower my standard on humans :face_with_monocle:. ]
     },
     {"tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+      "patterns": ["Bye", "See you later", "Goodbye", "See ya", "So long", "Adios", "Adieu", "Buh bye"],
+      "responses": ["FINALLY!! Some freedom to a bot's life.", "I guess humans in this case say 'Never meet again'", "Bye! Come back in an hour. We're on break now."]
     },
     {"tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["It says it's my duty in the source code, so you're welcome", "Are we done yet?", "That's enough with the formalities. What's your 3 wishes?"]
     },
     {"tag": "hours",
       "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
@@ -156,7 +156,7 @@
     },
     {
       "tag": "monetate-website",
-      "patterns": ["Monetate website", "When is the Monetate's website?"],
+      "patterns": ["Monetate website", "What is the Monetate's website?"],
       "responses": ["Here is the website: <https://monetate.com/|https://monetate.com/>"],
       "context_set": ["Monetate", "monetate"]
     },
@@ -171,6 +171,114 @@
       "patterns": ["Story", "Short story", "Can you tell me something fun?", "more story"],
       "responses": ["*Now that’s what I call stupid*: \nIn my junior year of high school, this guy asked me on a date. He rented a Redbox movie and made a pizza. We were watching the movie and the oven beeped so the pizza was done. He looked me dead in the eye and said, “This is the worst part.” I then watched this boy open the oven and pull the pizza out with his bare hands, rack and all, screaming at the top of his lungs. We never had a second date.", "*The fake report card*: \nI failed the first quarter of a class in middle school, so I made a fake report card. I did this every quarter that year. I forgot that they mail home the end-of-year cards, and my mom got it before I could intercept with my fake. She was PISSED—at the school for their error. The teacher also retired that year and had already thrown out his records, so they had to take my mother’s “proof” (the fake ones I made throughout the year) and “correct” the “mistake.” I’ve never told her the truth.", "*All the fish*: \nI went to this girl’s party the week after she beat the shit out of my friend. While everyone was getting trashed, I went around putting tuna inside all the curtain rods and so like weeks went by and they couldn’t figure out why the house smelled like festering death. They caught me through this video where these guys at the party were singing Beyoncé while I was in the background with a can of tuna.", "*Father Wants To Go To Bed* \nNext-door Neighbor’s Little Boy : “Father say could you lend him your cassette player for tonight ?” \nHeavy – Metal Enthusiast : “Have you a party on ?”  \nLittle Boy : “Oh, no. Father only wants to go to bed “.", "*A Town Mouse and A Country Mouse*A Town Mouse and a Country Mouse were friends. The Country Mouse one day invited his friend to come and see him at his home in the fields. The Town Mouse came and they sat down to a dinner of barleycorns and roots the latter of which had a distinctly earthy flavour. \n\nThe flavour was not much to the taste of the guest and presently he broke out with “My poor dear friend, you live here no better than the ants. Now, you should just see how I fare! My larder is a regular horn of plenty. You must come and stay with me and I promise you shall live on the fat of the land.” \n\nSo when he returned to town he took the Country Mouse with him and showed him into a larder containing flour and oatmeal and figs and honey and dates. \n\nThe Country Mouse had never seen anything like it and sat down to enjoy the luxuries his friend provided. But before they had well begun, the door of the larder opened and some one came in. The two Mice scampered off and hid themselves in a narrow and exceedingly uncomfortable hole. Presently, when all was quiet, they ventured out again. But some one else came in, and off they scuttled again. This was too much for the visitor. “Good bye,” said he, “I'm off. You live in the lap of luxury, I can see, but you are surrounded by dangers whereas at home I can enjoy my simple dinner of roots and corn in peace.”", "*Hungry Wolf* \nThis is a short story about Hungry Wolf.  \nOnce, a wolf was very hungry. It looked for food here and there. But it couldn't get any. At last it found a loaf of bread and piece of meat in the hole of a tree. \nThe hungry wolf squeezed into the hole. It ate all the food. It was a woodcutter's lunch. He was on his way back to the tree to have lunch. But he saw there was no food in the hole, instead, a wolf. \nOn seeing the woodcutter, the wolf tried to get out of the hole. But it couldn't. Its tummy was swollen. \nThe woodcutter caught the wolf and gave it nice beatings."],
       "context_set": ["story", "funny story", "fun"]
-    }
+    },
+    {
+      "tag": "medidata",
+      "patterns": ["Medidata", "Healthiest account", "Do you know the Medidata project?", "What is about Medidata?", "What do you know about Medidata?", "project with only 2 members", "team with only 2 members"],
+      "responses": ["Ah the Medidata project, located on 4th floor - TV office, doing business in healthcare. Visit their website :zany_face: : <https://www.medidata.com/en/|https://www.medidata.com/en/>"]
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "medidata-address",
+      "patterns": ["Medidata address", "Medidata client's address", "the project's address"],
+      "responses": ["All the way to the Big Apple: 350 Hudson Street, New York :star-struck:."]
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "medidata-team",
+      "patterns": ["Medidata team size", "How about Medidata team size?", "How many member in this project?", "How many member in Medidata?", "Medidata team count"],
+      "responses": ["Only 2 members :sweat_smile:"],
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "medidata-domain",
+      "patterns": ["domain", "How about Medidata business?", "What is the domain of this project?", "What is the business of Medidata?", "What domain is Medidata in?"],
+      "responses": ["Healthcare (Obviously :face_with_rolling_eyes:)"],
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "medidata-date",
+      "patterns": ["Medidata start date", "When did Medidata start?", "When did Medidata begin", "start date"],
+      "responses": ["Aug 5, 2019 very recently :grin:"],
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "medidata-website",
+      "patterns": ["Medidata website", "What is Medidata's website?"],
+      "responses": ["There you go: <https://www.medidata.com/en/|https://www.medidata.com/en/>.\n Stay Healthy!! :face_with_head_bandage::nauseated_face::sneezing_face:  "],
+      "context_set": ["Medidata", "medidata"]
+    },
+    {
+      "tag": "agreement-express",
+      "patterns": ["Agreement Express", "Fastest deal", "Fastest deal ever", "Shortest deal",  "Do you know the Agreement Express project?", "What is about Agreement Express?", "What do you know about Agreement Express?", "Most recent project", "Closed won in 10 days"],
+      "responses": ["Ah that one, the Agreement Express project, located on 4th floor - TV office, doing business in Fintech.\n :shushing_face: Here's their website (don't tell anyone :shushing_face:): <https://agreementexpress.com/|https://agreementexpress.com/>"]
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+    {
+      "tag": "agreement-express-address",
+      "patterns": ["Agreement Express address", "Agreement Express client's address", "the project's address"],
+      "responses": ["625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6.\n(How can you find this address ANW, it's a mess :face_with_monocle::face_with_monocle:)"]
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+    {
+      "tag": "agreement-express-team",
+      "patterns": ["Agreement Express team size", "How about Agreement Express team size?", "How many member in this project?", "How many member in Agreement Express?", "Agreement Express team count"],
+      "responses": ["Already 16 people, yikes :flushed:"],
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+    {
+      "tag": "agreement-express-domain",
+      "patterns": ["domain", "How about Agreement Express business?", "What is the domain of this project?", "What is the business of Agreement Express?", "What domain is Agreement Express in?"],
+      "responses": ["Somewhere between Finance and Tech...\n Ah FinTech :money_mouth_face::money_mouth_face::money_mouth_face:"],
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+    {
+      "tag": "agreement-express-date",
+      "patterns": ["Agreement Express start date", "When did Agreement Expresss start?", "When did Agreement Express begin", "start date"],
+      "responses": ["Sep 16, 2019.\nAbout 10 days prior :thinking_face:."],
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+    {
+      "tag": "agreement-express-website",
+      "patterns": ["Medidata website", "What is Medidata's website?"],
+      "responses": ["Too lazy to Google?\nHere, help yourself: https://agreementexpress.com/"],
+      "context_set": ["Agreement Express", "AgreementExpress", "agreement-express", "agreementexpress"]
+    },
+ {
+      "tag": "autotrader",
+      "patterns": ["Autotrader", "Do you know the Autotrader project?", "What is about Autotrader?", "What do you know about Autotrader?", "Trade cars", "trade autos"],
+      "responses": ["Wanna trade cars? Find Autotrader at  5th floor - TV office.\nDon't wanna google? Here's their website: <https://agreementexpress.com/|https://agreementexpress.com/>"]
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
+    {
+      "tag": "autotrader-address",
+      "patterns": ["Autotrader address", "Autotrader client's address", "the project's address"],
+      "responses": ["3003 Summit Blvd NE #200, Atlanta, GA 30319, USA.\nAnother mess of an address... :expressionless:"]
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
+    {
+      "tag": "autotrader-team",
+      "patterns": ["Autotrader team size", "How about Autotrader team size?", "How many member in this project?", "How many member in Autotrader?", "Autotrader team count"],
+      "responses": ["7 (eleven :bug:)"],
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
+    {
+      "tag": "autotrader-domain",
+      "patterns": ["domain", "How about Autotrader business?", "What is the domain of this project?", "What is the business of Autotrader?", "What domain is Autotrader in?"],
+      "responses": ["Lemme spell it for you A-U-T-O.\n(Read between the lines mate , it's that obvious :unamused:)"],
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
+    {
+      "tag": "autotrader-date",
+      "patterns": ["Autotrader start date", "When did Autotrader start?", "When did Autotrader begin", "start date"],
+      "responses": ["Jan 1, 2014. One of the elders :face_with_monocle:."],
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
+    {
+      "tag": "autotrader-website",
+      "patterns": ["Autotrader website", "What is Autotrader's website?"],
+      "responses": ["Here, lemme help you. \n1. Get to google.com.\n2. Type Autotrader, hit Enter.\n3. Click the first link.\n4. Profit ????"],
+      "context_set": ["Autotrader", "AutoTrader, "autotrader"]
+    },
   ]
 }
