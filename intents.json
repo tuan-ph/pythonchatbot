@@ -1,74 +1,69 @@
 {"intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Supp", "What's up", "Wassup", "Yo", "Hey"],
-      "responses": ["Yo", "F**Bot at your service.", "Hi there :neutral_face:", "What's up mate", "You again?? I'm taking a shower, get out!!", "On vacation. Try again after the *beep* sound."],
-      "context_set": ""
-    },
-    {
-      "tag": "greeting_questions",
-      "patterns": ["How are you?", "How is it going?", "How's it going?", "How do you do?"],
-      "responses": ["01000101101010101001101101.\nGood luck translating that.", "Never better in this entire deployment.", "Great! Getting an update soon! :smile:", "Ya asking a bot's health? You lower my standard on humans :face_with_monocle:. "]
-    },
-    {"tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "See ya", "So long", "Adios", "Adieu", "Buh bye"],
-      "responses": ["FINALLY!! Some freedom to a bot's life.", "I guess humans in this case say 'Never meet again'", "Bye! Come back in an hour. We're on break now."]
-    },
-    {"tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful"],
-      "responses": ["It says it's my duty in the source code, so you're welcome", "Are we done yet?","That's enough with the formalities. What's your 3 wishes?", "Nice to help :smile:", "u're welcome!", "Never mind!"]
-    },
-    {"tag": "hours",
-      "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-      "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
-    },
-    {"tag": "payments",
-      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
-      "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
-    },
-    {"tag": "opentoday",
-      "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-      "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
-    },
-    {
-      "tag": "nothing",
-      "patterns": ["", ":)", "understand"],
-      "responses": ["I can't understand what you are saying. Can you train me something? Ah, I always forgot whatever you say in one second! :zany_face:"]
-    },
-    {
-      "tag": "HotSchedules",
-      "patterns": ["Which project is biggest in A+?"],
-      "responses": ["HS", "HotSchedules"],
-      "context_set": ["HotSchedules"]
-    },
-    {
-      "tag": "biggest-project",
-      "patterns": ["Which project is biggest in A+?"],
-      "responses": ["The biggest project of A+ HotSchedules", "HotSchedules"]
-    },
-    {
-      "tag": "hs_questions",
-      "patterns": ["How many member in this project?", "What is industry of Hotschedules Project", "What is programming languanges in HS?", "Why Hotschedules is dismissed/closed "],
-      "responses": ["Over 100 members in 2018 :heart:","Hotschedules is Restaurant industry","HS is used NodeJS","Hotschedules is acquired by Fourth :disappointed:"],
-      "context_set": ["HS", "HotSchedules"]
-    },
-    {
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Supp", "What's up", "Wassup", "Yo", "Hey"],
+    "responses": ["Yo", "F**Bot at your service.", "Hi there :neutral_face:", "What's up mate", "You again?? I'm taking a shower, get out!!", "On vacation. Try again after the *beep* sound."],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting_questions",
+    "patterns": ["How are you?", "How is it going?", "How's it going?", "How do you do?"],
+    "responses": ["01000101101010101001101101.\nGood luck translating that.", "Never better in this entire deployment.", "Great! Getting an update soon! :smile:", "Ya asking a bot's health? You lower my standard on humans :face_with_monocle:. "]
+  },
+  {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "See ya", "So long", "Adios", "Adieu", "Buh bye"],
+    "responses": ["FINALLY!! Some freedom to a bot's life.", "I guess humans in this case say 'Never meet again'", "Bye! Come back in an hour. We're on break now."]
+  },
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["It says it's my duty in the source code, so you're welcome", "Are we done yet?","That's enough with the formalities. What's your 3 wishes?", "Nice to help :smile:", "u're welcome!", "Never mind!"]
+  },
+  {"tag": "hours",
+    "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+    "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+  },
+  {"tag": "payments",
+    "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+    "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+  },
+  {"tag": "opentoday",
+    "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+  },
+  {
+    "tag": "nothing",
+    "patterns": ["", ":)", "understand"],
+    "responses": ["I can't understand what you are saying. Can you train me something? Ah, I always forgot whatever you say in one second! :zany_face:"]
+  },
+  {
+    "tag": "HotSchedules",
+    "patterns": ["Which project is biggest in A+?"],
+    "responses": ["HS", "HotSchedules"],
+    "context_set": ["HotSchedules"]
+  },
+  {
+    "tag": "biggest-project",
+    "patterns": ["Which project is biggest in A+?"],
+    "responses": ["The biggest project of A+ HotSchedules", "HotSchedules"]
+  },
+  {
+    "tag": "hs_questions",
+    "patterns": ["How many member in this project?", "What is industry of Hotschedules Project", "What is programming languanges in HS?", "Why Hotschedules is dismissed/closed "],
+    "responses": ["Over 100 members in 2018 :heart:","Hotschedules is Restaurant industry","HS is used NodeJS","Hotschedules is acquired by Fourth :disappointed:"],
+    "context_set": ["HS", "HotSchedules"]
+  },
+  {
     "tag": "HotSchedules_closed",
     "patterns": ["Why HS is closed "],
     "responses": ["It is acquired by Fourth :joy:"],
     "context_filter": ["HotSchedules"]
-   },
-	  {
-      "tag": "Kibo",
-      "patterns": ["Which project is long-live in A+?"],
-      "responses": ["Marketlive", "Kibo"]
-    },
-    {
-      "tag": "Kibo_questions",
-      "patterns": ["How many member in this project?", "What is business/domain of Kibo Project", "What is programming languanges in Kibo?","Does Kibo has test automation"],
-      "responses": ["Over 50 members in 2014 :heart:","Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
-      "context_set": ["Marketlive", "Kibo"]
-    },
+  },
+  {
+    "tag": "Kibo_questions",
+    "patterns": ["How many member in this project?", "What is business/domain of Kibo Project", "What is programming languanges in Kibo?","Does Kibo has test automation"],
+    "responses": ["Over 50 members in 2014 :heart:","Kibo provides eCommerce platform, services and expertise designed specifically for mid to upper tier retailers","programming languanges is Java and .NET", "Yes, Kibo has do automation for checkout flow and do performance test as well"],
+    "context_set": ["Marketlive", "Kibo"]
+  },
   {
     "tag": "Kibo",
     "patterns": ["Which project is long-live in A+?"],
@@ -216,8 +211,7 @@
     {
       "tag": "short-funny-stories",
       "patterns": ["Story", "Short story", "Can you tell me something fun?", "more story"],
-      "responses": ["*Now that’s what I call stupid*: \nIn my junior year of high school, this guy asked me on a date. He rented a Redbox movie and made a pizza. We were watching the movie and the oven beeped so the pizza was done. He looked me dead in the eye and said, “This is the worst part.” I then watched this boy open the oven and pull the pizza out with his bare hands, rack and all, screaming at the top of his lungs. We never had a second date.", "*The fake report card*: \nI failed the first quarter of a class in middle school, so I made a fake report card. I did this every quarter that year. I forgot that they mail home the end-of-year cards, and my mom got it before I could intercept with my fake. She was PISSED—at the school for their error. The teacher also retired that year and had already thrown out his records, so they had to take my mother’s “proof” (the fake ones I made throughout the year) and “correct” the “mistake.” I’ve never told her the truth.", "*All the fish*: \nI went to this girl’s party the week after she beat the shit out of my friend. While everyone was getting trashed, I went around putting tuna inside all the curtain rods and so like weeks went by and they couldn’t figure out why the house smelled like festering death. They caught me through this video where these guys at the party were singing Beyoncé while I was in the background with a can of tuna.", "*Father Wants To Go To Bed* \nNext-door Neighbor’s Little Boy : “Father say could you lend him your cassette player for tonight ?” \nHeavy – Metal Enthusiast : “Have you a party on ?”  \nLittle Boy : “Oh, no. Father only wants to go to bed “.", "*A Town Mouse and A Country Mouse*A Town Mouse and a Country Mouse were friends. The Country Mouse one day invited his friend to come and see him at his home in the fields. The Town Mouse came and they sat down to a dinner of barleycorns and roots the latter of which had a distinctly earthy flavour. \n\nThe flavour was not much to the taste of the guest and presently he broke out with “My poor dear friend, you live here no better than the ants. Now, you should just see how I fare! My larder is a regular horn of plenty. You must come and stay with me and I promise you shall live on the fat of the land.” \n\nSo when he returned to town he took the Country Mouse with him and showed him into a larder containing flour and oatmeal and figs and honey and dates. \n\nThe Country Mouse had never seen anything like it and sat down to enjoy the luxuries his friend provided. But before they had well begun, the door of the larder opened and some one came in. The two Mice scampered off and hid themselves in a narrow and exceedingly uncomfortable hole. Presently, when all was quiet, they ventured out again. But some one else came in, and off they scuttled again. This was too much for the visitor. “Good bye,” said he, “I'm off. You live in the lap of luxury, I can see, but you are surrounded by dangers whereas at home I can enjoy my simple dinner of roots and corn in peace.”", "*Hungry Wolf* \nThis is a short story about Hungry Wolf.  \nOnce, a wolf was very hungry. It looked for food here and there. But it couldn't get any. At last it found a loaf of bread and piece of meat in the hole of a tree. \nThe hungry wolf squeezed into the hole. It ate all the food. It was a woodcutter's lunch. He was on his way back to the tree to have lunch. But he saw there was no food in the hole, instead, a wolf. \nOn seeing the woodcutter, the wolf tried to get out of the hole. But it couldn't. Its tummy was swollen. \nThe woodcutter caught the wolf and gave it nice beatings."],
-      "context_set": ["story", "funny story", "fun"]
+      "responses": ["*Now that’s what I call stupid*: \n In my junior year of high school, this guy asked me on a date. He rented a Redbox movie and made a pizza. We were watching the movie and the oven beeped so the pizza was done. He looked me dead in the eye and said, This is the worst part. I then watched this boy open the oven and pull the pizza out with his bare hands, rack and all, screaming at the top of his lungs. We never had a second date."]
     },
     {
       "tag": "medidata",
@@ -326,6 +320,238 @@
       "patterns": ["Autotrader website", "What is Autotrader's website?"],
       "responses": ["Here, lemme help you. \n1. Get to google.com.\n2. Type Autotrader, hit Enter.\n3. Click the first link.\n4. Profit ????"],
       "context_set": ["Autotrader", "AutoTrader", "autotrader"]
+    },
+    {
+      "tag": "bbsquestion1",
+      "patterns": ["What is BBS", "What is Babyshark"],
+      "responses": ["Baby Shark is a project in 4th floor Tan Vien."],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbsquestion2",
+      "patterns": ["Project started in August 2018", "learn more", "learn forever"],
+      "responses": ["That's Baby shark."],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbsstart",
+      "patterns": ["When it start", "When Baby shark start", "When bbs start"],
+      "responses": ["It's August 2018"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbspeople1",
+      "patterns": ["How many people in there", "what number of member there"],
+      "responses": ["Ramp up & down anytime"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbspeople2",
+      "patterns": ["How many people in Baby shark", "How many people in BBS", "How many member in Baby shark", "How many people in BBS"],
+      "responses": ["Ramp up & down anytime"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbspeople3",
+      "patterns": ["What number of member in Baby shart", "What number of member in BBS"],
+      "responses": ["Ramp up & down anytime"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbslocation1",
+      "patterns": ["What is it location", "What is BBS location", "What baby shark office"],
+      "responses": ["It's on 4th floor - TV office"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbslocation2",
+      "patterns": ["Where is it in", "Where is Baby shark", "where baby shark office"],
+      "responses": ["It's on 4th floor - TV office"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbsbusiness",
+      "patterns": ["Where is it business", "what is baby shark business"],
+      "responses": ["It's class to learn"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "hmsquestion1",
+      "patterns": ["What is hms", "What is CloundHMS"],
+      "responses": ["CloundHMS (HMS) is a project about hospitality"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsquestion2",
+      "patterns": ["Project about hospitality", "ETOWN Central Floor 24th", "start date June 10 2019"],
+      "responses": ["That's CloundHMS (HMS)."],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsaddress1",
+      "patterns": ["What is it address", "Where is it from"],
+      "responses": ["It's ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsaddress2",
+      "patterns": ["What is Cloud HMS address", "Where is Cloud HMS from"],
+      "responses": ["It's ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsstart",
+      "patterns": ["When it start", "When Clound HMS start", "When hms start"],
+      "responses": ["It's June 10, 2019"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmspeople1",
+      "patterns": ["How many people in there", "How many member in there", "what is number of member in there"],
+      "responses": ["There are 18+ (you know what I mean ^-^)"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmspeople2",
+      "patterns": ["How many people in Clound Hms"],
+      "responses": ["There are 18+ (you know what I mean ^-^)"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmspeople3",
+      "patterns": ["what is number of member in there", "what is number of member in Clound Hms"],
+      "responses": ["There are 18+ (you know what I mean ^-^)"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmslocation1",
+      "patterns": ["What is it location", "Where is it in", "What is it office"],
+      "responses": ["It's on 4th floor - TV office"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmslocation2",
+      "patterns": ["Where is Clound HMS in", "What location is Clound HMS", "What Clound HMS office"],
+      "responses": ["It's on 4th floor - TV office"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsbusiness1",
+      "patterns": ["What is it business", "What is it domain"],
+      "responses": ["It's a project about hospitality"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsbusiness2",
+      "patterns": ["What is Clound HMS business", "What is Clound HMS domain"],
+      "responses": ["It's a project about hospitality"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsfunfact1",
+      "patterns": ["What is it fun fact", "how about fun fact"],
+      "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"],
+      "context_filter": ["cloundhms"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "hmsfunfact2",
+      "patterns": ["What is fun fact of Cloud HMS", "How about fun fact of HMS"],
+      "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"],
+      "context_set": ["cloundhms"]
+    },
+    {
+      "tag": "kbbquestion1",
+      "patterns": ["What is KBB"],
+      "responses": ["KBB is Kelley Blue Book, that's a project about Automobile business"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbquestion2",
+      "patterns": ["Project about automobile", "start in Jan 1 2014", "5th floor"],
+      "responses": ["That's KBB project"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbaddress1",
+      "patterns": ["What is it address", "Where is it from"],
+      "responses": ["The address is 195 Technology Dr, Irvine, CA 92618, USA", "This project come from 195 Technology Dr, Irvine, CA 92618, USA"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbaddress2",
+      "patterns": ["What is KBB address", "Where is KBB from"],
+      "responses": ["The address is 195 Technology Dr, Irvine, CA 92618, USA", "This project come from 195 Technology Dr, Irvine, CA 92618, USA"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbbusiness1",
+      "patterns": ["What is it business", "What is it domain"],
+      "responses": ["It's a project about Automobile", "The domain of this project is about Automobile"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "hmsbusiness2",
+      "patterns": ["What is KBB business", "What is CKBB domain"],
+      "responses": ["It's a project about Automobile", "The domain of this project is about Automobile"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbwebsite1",
+      "patterns": ["What is it website", "Does it have website"],
+      "responses": ["The project have a website: https://www.kbb.com/", "Website is https://www.kbb.com/"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbwebsite2",
+      "patterns": ["What is KBB website", "What is CKBB domain"],
+      "responses": ["The project have a website: https://www.kbb.com/", "Website is https://www.kbb.com/"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbstart",
+      "patterns": ["When it start", "When this project start"],
+      "responses": ["The start date is Jan 1, 2014"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "kbbstart",
+      "patterns": ["When is KBB start", "what KBB start date"],
+      "responses": ["The start date is Jan 1, 2014", "This project started from Jan 1, 2014"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "bbspeople1",
+      "patterns": ["How many people in there", "what number of member there"],
+      "responses": ["Ramp up & down anytime"],
+      "context_filter": ["babyshark"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbspeople2",
+      "patterns": ["How many people in Baby shark", "How many people in BBS", "How many member in Baby shark", "How many people in BBS"],
+      "responses": ["Ramp up & down anytime"],
+      "context_set": ["babyshark"]
+    },
+    {
+      "tag": "bbspeople3",
+      "patterns": ["What number of member in Baby shart", "What number of member in BBS"],
+      "responses": ["Ramp up & down anytime"],
+      "context_set": ["babyshark"]
     }
   ]
 }
