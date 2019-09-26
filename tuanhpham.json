@@ -1,0 +1,157 @@
+{"intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi There"],
+    "responses": ["Good to see you again"]
+  },
+  {
+    "tag": "bbsquestion1",
+    "patterns": ["What is BBS", "What is Babyshark"],
+    "responses": ["Baby Shark is a project in 4th floor Tan Vien."],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbsquestion2",
+    "patterns": ["Project started in August 2018", "learn more", "learn forever"],
+    "responses": ["That's Baby shark."],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbsstart",
+    "patterns": ["When it start", "When Baby shark start", "When bbs start"],
+    "responses": ["It's August 2018"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbspeople1",
+    "patterns": ["How many people in there", "what number of member there"],
+    "responses": ["Ramp up & down anytime"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbspeople2",
+    "patterns": ["How many people in Baby shark", "How many people in BBS", "How many member in Baby shark", "How many people in BBS"],
+    "responses": ["Ramp up & down anytime"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbspeople3",
+    "patterns": ["What number of member in Baby shart", "What number of member in BBS"],
+    "responses": ["Ramp up & down anytime"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbslocation1",
+    "patterns": ["What is it location", "What is BBS location", "What baby shark office"],
+    "responses": ["It's on 4th floor - TV office"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbslocation2",
+    "patterns": ["Where is it in", "Where is Baby shark", "where baby shark office"],
+    "responses": ["It's on 4th floor - TV office"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbsbusiness",
+    "patterns": ["Where is it business", "what is baby shark business"],
+    "responses": ["It's class to learn"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "hmsquestion1",
+    "patterns": ["What is hms", "What is CloundHMS"],
+    "responses": ["CloundHMS (HMS) is a project about hospitality"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsquestion2",
+    "patterns": ["Project about hospitality", "ETOWN Central Floor 24th", "start date June 10 2019"],
+    "responses": ["That's CloundHMS (HMS)."],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsaddress1",
+    "patterns": ["What is it address", "Where is it from"],
+    "responses": ["It's ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsaddress2",
+    "patterns": ["What is Cloud HMS address", "Where is Cloud HMS from"],
+    "responses": ["It's ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsstart",
+    "patterns": ["When it start", "When Clound HMS start", "When hms start"],
+    "responses": ["It's June 10, 2019"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmspeople1",
+    "patterns": ["How many people in there", "How many member in there", "what is number of member in there"],
+    "responses": ["There are 18+ (you know what I mean ^-^)"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmspeople2",
+    "patterns": ["How many people in Clound Hms"],
+    "responses": ["There are 18+ (you know what I mean ^-^)"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmspeople3",
+    "patterns": ["what is number of member in there", "what is number of member in Clound Hms"],
+    "responses": ["There are 18+ (you know what I mean ^-^)"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmslocation1",
+    "patterns": ["What is it location", "Where is it in", "What is it office"],
+    "responses": ["It's on 4th floor - TV office"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmslocation2",
+    "patterns": ["Where is Clound HMS in", "What location is Clound HMS", "What Clound HMS office"],
+    "responses": ["It's on 4th floor - TV office"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsbusiness1",
+    "patterns": ["What is it business", "What is it domain"],
+    "responses": ["It's a project about hospitality"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsbusiness2",
+    "patterns": ["What is Clound HMS business", "What is Clound HMS domain"],
+    "responses": ["It's a project about hospitality"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsfunfact1",
+    "patterns": ["What is it fun fact", "how about fun fact"],
+    "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"],
+    "context_filter": ["cloundhms"],
+    "context_set": ["cloundhms"]
+  },
+  {
+    "tag": "hmsfunfact2",
+    "patterns": ["What is fun fact of Cloud HMS", "How about fun fact of HMS"],
+    "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"],
+    "context_set": ["cloundhms"]
+  }
+]
+}
