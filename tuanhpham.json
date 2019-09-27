@@ -152,6 +152,89 @@
     "patterns": ["What is fun fact of Cloud HMS", "How about fun fact of HMS"],
     "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"],
     "context_set": ["cloundhms"]
-  }
+  },
+  {
+    "tag": "kbbquestion1",
+    "patterns": ["What is KBB"],
+    "responses": ["KBB is Kelley Blue Book, that's a project about Automobile business"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbquestion2",
+    "patterns": ["Project about automobile", "start in Jan 1 2014", "5th floor"],
+    "responses": ["That's KBB project"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbaddress1",
+    "patterns": ["What is it address", "Where is it from"],
+    "responses": ["The address is 195 Technology Dr, Irvine, CA 92618, USA", "This project come from 195 Technology Dr, Irvine, CA 92618, USA"],
+    "context_filter": ["kbb"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbaddress2",
+    "patterns": ["What is KBB address", "Where is KBB from"],
+    "responses": ["The address is 195 Technology Dr, Irvine, CA 92618, USA", "This project come from 195 Technology Dr, Irvine, CA 92618, USA"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbbusiness1",
+    "patterns": ["What is it business", "What is it domain"],
+    "responses": ["It's a project about Automobile", "The domain of this project is about Automobile"],
+    "context_filter": ["kbb"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "hmsbusiness2",
+    "patterns": ["What is KBB business", "What is CKBB domain"],
+    "responses": ["It's a project about Automobile", "The domain of this project is about Automobile"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbwebsite1",
+    "patterns": ["What is it website", "Does it have website"],
+    "responses": ["The project have a website: https://www.kbb.com/", "Website is https://www.kbb.com/"],
+    "context_filter": ["kbb"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbwebsite2",
+    "patterns": ["What is KBB website", "What is CKBB domain"],
+    "responses": ["The project have a website: https://www.kbb.com/", "Website is https://www.kbb.com/"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbstart",
+    "patterns": ["When it start", "When this project start"],
+    "responses": ["The start date is Jan 1, 2014"],
+    "context_filter": ["kbb"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "kbbstart",
+    "patterns": ["When is KBB start", "what KBB start date"],
+    "responses": ["The start date is Jan 1, 2014", "This project started from Jan 1, 2014"],
+    "context_set": ["kbb"]
+  },
+  {
+    "tag": "bbspeople1",
+    "patterns": ["How many people in there", "what number of member there"],
+    "responses": ["Ramp up & down anytime"],
+    "context_filter": ["babyshark"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbspeople2",
+    "patterns": ["How many people in Baby shark", "How many people in BBS", "How many member in Baby shark", "How many people in BBS"],
+    "responses": ["Ramp up & down anytime"],
+    "context_set": ["babyshark"]
+  },
+  {
+    "tag": "bbspeople3",
+    "patterns": ["What number of member in Baby shart", "What number of member in BBS"],
+    "responses": ["Ramp up & down anytime"],
+    "context_set": ["babyshark"]
+  },
 ]
 }
