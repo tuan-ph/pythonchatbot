@@ -535,23 +535,49 @@
       "context_set": ["kbb"]
     },
     {
-      "tag": "bbspeople1",
+      "tag": "kbbpeople1",
       "patterns": ["How many people in there", "what number of member there"],
-      "responses": ["Ramp up & down anytime"],
-      "context_filter": ["babyshark"],
-      "context_set": ["babyshark"]
+      "responses": ["Number of member is 45"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
     },
     {
       "tag": "bbspeople2",
-      "patterns": ["How many people in Baby shark", "How many people in BBS", "How many member in Baby shark", "How many people in BBS"],
-      "responses": ["Ramp up & down anytime"],
-      "context_set": ["babyshark"]
+      "patterns": ["How many people in KBB"],
+      "responses": ["Number of member is 45"],
+      "context_set": ["kbb"]
     },
     {
       "tag": "bbspeople3",
-      "patterns": ["What number of member in Baby shart", "What number of member in BBS"],
-      "responses": ["Ramp up & down anytime"],
-      "context_set": ["babyshark"]
+      "patterns": ["What number of member in KBB"],
+      "responses": ["There're about 45"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "bbsfavourite1",
+      "patterns": ["What Favorite activities this project "],
+      "responses": ["Learning - Sharing - Playing - Caring - Listening", "master of Cars, but have no any car", "gym everyday with special care from Muscle Boys"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "bbsfavourite2",
+      "patterns": ["What Favorite activities of KBB "],
+      "responses": ["Learning - Sharing - Playing - Caring - Listening", "master of Cars, but have no any car", "gym everyday with special care from Muscle Boys"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "bbsfunfact1",
+      "patterns": ["What fun fact of this project "],
+      "responses": ["A member of Tuyet Tinh Cox (Cox Automotive Client)", "Stable COE audit rating of 4.3"],
+      "context_filter": ["kbb"],
+      "context_set": ["kbb"]
+    },
+    {
+      "tag": "bbsfunfact2",
+      "patterns": ["What fun fact of KBB "],
+      "responses": ["A member of Tuyet Tinh Cox (Cox Automotive Client)", "Stable COE audit rating of 4.3"],
+      "context_set": ["kbb"]
     }
   ]
 }
